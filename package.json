@@ -1,0 +1,22 @@
+{
+  "name": "my-first-gridsome-project",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@gridsome/remark-prismjs": "^0.4.0",
+    "@gridsome/source-filesystem": "^0.6.2",
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.17.1",
+    "gridsome": "^0.7.0",
+    "serve-static": "^1.14.1",
+    "tailwindcss": "^1.9.0"
+  },
+  "devDependencies": {
+    "@gridsome/transformer-remark": "^0.6.3"
+  }
+}
