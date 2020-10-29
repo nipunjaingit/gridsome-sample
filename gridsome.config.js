@@ -15,6 +15,7 @@ if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require(
 
 module.exports = {
   siteName: 'Gridsome Blogs',
+  chainWebpack: config => config.mode('development'),
   plugins: [
     {
       use: '@gridsome/source-filesystem',
