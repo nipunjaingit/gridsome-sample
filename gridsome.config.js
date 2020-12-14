@@ -14,17 +14,8 @@ const postcssPlugins = [
 if (process.env.NODE_ENV === 'production') postcssPlugins.push(purgecss(require('./purgecss.config.js')))
 
 module.exports = {
-  siteName: 'Gridsome Blogs',
+  siteName: 'Gridsome Posts',
   chainWebpack: config => config.mode('development'),
-  plugins: [
-    {
-      use: '@gridsome/source-filesystem',
-      options: {
-        path: 'content/blogs/**/*.md',
-        typeName: 'Blog'
-      }
-    }
-  ],
   css: {
     loaderOptions: {
       postcss: {

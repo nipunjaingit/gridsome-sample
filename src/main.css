@@ -1,4 +1,41 @@
-@import './markdown.css';
+.navbar {
+    height: 70px;
+    line-height: 70px;
+}
+
+.post-image {
+    max-width: 500px;
+}
+
+.back-icon {
+    top: 1.2rem;
+    left: 1.2rem;
+    border-radius: 50%
+}
+
+.post-item {
+    height: 450px;
+    position: relative;
+}
+
+.post-item-image {
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.post-item-text {
+    height: 100px;
+}
+
+.post-item-date {
+    height: 50px;
+}
+
+.navbar a.block {
+    height: 65%
+}
 
 @tailwind base;
 @tailwind components;

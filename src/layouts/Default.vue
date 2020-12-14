@@ -1,7 +1,7 @@
 <template>
   <div class="layout">
     <nav-bar :data="$static.metadata"></nav-bar>
-    <div class="content m-auto py-8">
+    <div class="content">
       <slot/>
     </div>
   </div>
@@ -32,6 +32,6 @@ body {
   line-height: 1.5;
 }
 .content {
-  max-width: 800px;
+  height: calc(100vh - 70px);
 }
 </style>
